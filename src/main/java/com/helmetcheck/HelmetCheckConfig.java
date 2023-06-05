@@ -8,9 +8,9 @@ import net.runelite.client.config.ConfigItem;
 public interface HelmetCheckConfig extends Config
 {
 	@ConfigItem(
-		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		keyName = "helmChecker",
+		name = "Helmet Checker",
+		description = "Displays a message and overlay box signifying whether the player is wearing a helmet or not."
 	)
 	default String greeting()
 	{
